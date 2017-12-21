@@ -3,7 +3,74 @@ PackratVersion: 0.4.8.1
 RVersion: 3.4.0
 Repos: CRAN=https://cran.revolutionanalytics.com
 
+Package: R6
+Source: CRAN
+Version: 2.2.2
+
+Package: backports
+Source: CRAN
+Version: 1.1.2
+
+Package: curl
+Source: CRAN
+Version: 3.1
+
+Package: devtools
+Source: CRAN
+Version: 1.13.4
+Requires: digest, git2r, httr, jsonlite, memoise, rstudioapi, whisker,
+    withr
+Hash: 80a77b22f641002c7ce0343baeaee300
+
+Package: digest
+Source: CRAN
+Version: 0.6.13
+
+Package: git2r
+Source: CRAN
+Version: 0.20.0
+
+Package: httr
+Source: CRAN
+Version: 1.3.1
+Requires: R6, curl, jsonlite, mime, openssl
+
+Package: jsonlite
+Source: CRAN
+Version: 1.5
+
+Package: memoise
+Source: CRAN
+Version: 1.1.0
+Requires: digest
+
+Package: mime
+Source: CRAN
+Version: 0.5
+
+Package: openssl
+Source: CRAN
+Version: 0.9.9
+
 Package: packrat
 Source: CRAN
 Version: 0.4.8-1
 Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: rprojroot
+Source: CRAN
+Version: 1.2
+Requires: backports
+Hash: fdcac51a7f47decd60556ceefc3c26b1
+
+Package: rstudioapi
+Source: CRAN
+Version: 0.7
+
+Package: whisker
+Source: CRAN
+Version: 0.3-2
+
+Package: withr
+Source: CRAN
+Version: 2.1.1
